@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <ul class="nav-bar">
+            <li><a href="page1.html">First Page</a></li>
+            <li><a href="page2.html">Second Page</a></li>
+            <li><a href="page3.html">Third Page</a></li>
+            <li><a href="page4.html">Fourth Page</a></li>
+        </ul>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <p>Your status</p>
+                    <div class="a">
+                        <label for="student">Student</label>
+                        <input id="student" type="radio" name="status" value="student">
+
+                        <label for="teacher">Teacher</label>
+                        <input id="teacher" type="radio" name="status" value="teacher">
+
+                        <label for="guest">Guest</label>
+                        <input id="status" type="radio" name="status" value="guest">
+
+                    </div>
+                </div>
+
+                <div>
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

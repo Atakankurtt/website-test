@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #172121;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar li {
+    width: 100%;
+    border-right: 0.5px solid #E5d0cc;
+    border-left: 0.5px solid #E5d0cc;
+}
+
+.nav-bar li a {
+    display: block;
+    color: #E5d0cc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav-bar li a:hover:not(.active) {
+    background-color: #444554;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    border: 4px solid black;
+    padding: 10px;
+    background-color: azure;
+}
+
+form {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+fieldset div {
+    display: contents;
+    padding: 5px;
+}
+
+.a {
+    display: block;
+}
+
+.a input {
+    margin-right: 5px;
+}
+
+#firstName, #lastName, textarea {
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+button {
+    font-style: oblique;
+    width: 40%;
+}
+
+.page-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 4px solid black;
+    padding: 10px;
+    background-color: rgb(230, 236, 236);
+}
+
+.page-3 ul {
+    display: block;
+    margin-right: 3%;
+}
+
+.page-3 ul li {
+    list-style: none;
+}
+
+.page-3 ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 5em;
+}
+
+.page-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 4px solid black;
+    padding: 10px;
+    background-color: rgb(230, 236, 236);
+}
+
+.wide-pics {
+    display: contents;
+}
+
+.down-pics {
+    display: flex;
+}
+
+.down-pics img {
+    width: 286px;
+    height: 286px;
+}
+
+.down-pics div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
